@@ -1,0 +1,50 @@
+body > table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(39, 45, 47);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border: solid rgb(121, 130, 133) 5px ;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+    border-radius: 5px;
+}
+td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #2c2929;
+}
+input[type="text"], input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0 10px;
+    outline: none;
+    color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+    
+}
+input[type="submit"]:hover{
+    background: #b9b4b4bc;
+}
